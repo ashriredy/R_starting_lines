@@ -19,6 +19,6 @@ if(!require("clustMixType")){install.packages("clustMixType",dependencies = T);l
 if(!require("dummies")){install.packages("dummies",dependencies = T);library("dummies")}
 gc()
 options(scipen = 999)
-setwd("C:/Users/Ashrith Reddy/OneDrive - TheMathCompany Private Limited/")
+setwd("C:/Users/Ashrith Reddy/Desktop/")
 dev.off()
 rm(list=ls()); cat("\014")
