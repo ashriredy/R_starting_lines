@@ -20,5 +20,6 @@ if(!require("dummies")){install.packages("dummies",dependencies = T);library("du
 gc()
 options(scipen = 999)
 setwd("C:/Users/Ashrith Reddy/Desktop/")
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 dev.off()
 rm(list=ls()); cat("\014")
