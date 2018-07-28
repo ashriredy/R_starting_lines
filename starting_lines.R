@@ -18,7 +18,6 @@ if(!require("beepr")){install.packages("beepr",dependencies = T);library("beepr"
 if(!require("clustMixType")){install.packages("clustMixType",dependencies = T);library("clustMixType")}
 if(!require("dummies")){install.packages("dummies",dependencies = T);library("dummies")}
 gc()
-options(scipen = 999)
 setwd("C:/Users/Ashrith Reddy/Desktop/")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 dev.off()
