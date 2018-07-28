@@ -17,6 +17,7 @@ if(!require("clValid")){install.packages("clValid",dependencies = T);library("cl
 if(!require("beepr")){install.packages("beepr",dependencies = T);library("beepr")}
 if(!require("clustMixType")){install.packages("clustMixType",dependencies = T);library("clustMixType")}
 if(!require("dummies")){install.packages("dummies",dependencies = T);library("dummies")}
+if(!require("rstudioapi")){install.packages("rstudioapi",dependencies = T);library("rstudioapi")}
 gc()
 setwd("C:/Users/Ashrith Reddy/Desktop/")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
