@@ -1,4 +1,4 @@
-#### Setting Up ####
+#### 00 Setting Up ####
 if(!require("data.table")){install.packages("data.table",dependencies = T);library("data.table")}
 if(!require("dplyr")){install.packages("dplyr",dependencies = T);library("dplyr")}
 if(!require("magrittr")){install.packages("magrittr",dependencies = T);library("magrittr")}
@@ -24,3 +24,10 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 dev.off()
 options(scipen=999)
 rm(list=ls()); cat("\014")
+
+#### 01 Reading Datasets ####
+
+
+
+#### 99 junk ####
+
